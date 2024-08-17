@@ -12,7 +12,7 @@ const App = () => {
         <CardContextComponent>
           <PurchaseContextComponent>
             <Routes>
-              <Route  path="cart" element={<PurchaseContextComponent> <AddToCard /> </PurchaseContextComponent> }/>
+              <Route  path="/cart" element={<PurchaseContextComponent> <AddToCard /> </PurchaseContextComponent> }/>
               <Route path="*" element={<Navigate to="cart" />}/>
             </Routes>
           </PurchaseContextComponent>
